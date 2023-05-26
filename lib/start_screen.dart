@@ -23,7 +23,7 @@ class StartScreen extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
-          const SizedBox(height: 30),
+          const SizedBox(height: 40),
           OutlinedButton.icon(
             onPressed: () {
               startQuiz();
