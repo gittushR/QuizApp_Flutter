@@ -27,7 +27,7 @@ class _QuizState extends State<Quiz> {
   @override
   Widget build(context) {
     Widget screenWidget = StartScreen(switchScreen);
-    if (currentScreen == "startScreen") {
+    if (currentScreen != "startScreen") {
       screenWidget = QuestionsScreen(onSelectAnswer: getChosenAnswers);
     }
     return MaterialApp(
